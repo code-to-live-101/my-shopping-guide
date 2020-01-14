@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MY SHOPPING GUIDE</title>
+    <meta charset="UTF-8">
+    <title>        VIRTUAL SHOPPING GUIDE</title>
+    <link rel="p"  href="home_deccor.css">
+    <link rel="stylesheet"  href="home_deccor.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+<div class="top-nav-bar">
+<div  class="search-box">
+    <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"> </i>
+    <i class="fa fa-times" id="close-btn" onclick="closemenu()"> </i>
+    <img src="images/shop.jpg" class="logo" alt="">
+    <label>
+        <input type="text" class="from-control">
+    </label>
+
+    <span class="input-group-text"><i class="fa fa-search"></i></span>
+</div>
+    <!.....inserting menu bar.....!>
+    <section class="menu-bar">
+        <ul>
+            <li><a>cart</a></li>
+            <li><a >location</a></li>
+        </ul>
+
+    </section>
+</div>
+<!.. inserting the background and  logo images..>
+
+<!.. side bar menu..>
+<section class="header">
+    <div class="side-menu" id="side-menu">
+        <ul>
+            <li>on sale <i class="fa fa-angle-right"></i>
+                <ul>
+                    <li>sub menu-1</li>
+                    <li>sub menu-1</li>
+                    <li>sub menu-1</li>
+                    <li>sub menu-1</li>
+                </ul>
+            </li>
+            <li>electronics<i class="fa fa-angle-right"></i>
+                <ul>
+                    <li>mobiles</li>
+                    <li>sub menu-b</li>
+                    <li>sub menu-c</li>
+                    <li>sub menu-d</li>
+                </ul>
+            </li>
+            <li>cloths<i class="fa fa-angle-right"></i>
+                <ul>
+                    <li>sub-menu</li>
+                    <li>sub-menu</li>
+                    <li>sub-menu</li>
+                    <li>sub-menu</li>
+                </ul>
+            </li>
+            <li>kitchen ware<i class="fa fa-angle-right"></i>
+                <ul>
+                <li>sub menu-d</li>
+                <li>sub menu-e</li>
+                <li>sub menu-f</li>
+                <li>sub menu-g</li>
+            </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!...........adding a sliding photos!.>
+    <div class="slider">
+          <div id="slider" class="carousel slide carousel-fade" data-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="pro image/kids wear/kid blue.jpg" class="d-block w-100"  height="100%"  width="200%">
+                  </div>
+                  <div class="carousel -item">
+                      <img src="pro image/kitchen/kitchen%20ware.jpg"class="d-block w-100 " height="100%"  width="200%" >
+                  </div>
+                  <div class="carousel-item">
+                      <img src="pro image/elec/coolhp.jpg"class="d-block w-100 " height="100%"  width="200%">
+                  </div>
+                  <div class="carousel-item">
+                      <img src="pro image/womens wear/shirt.jpg"class="d-block w-100 " height="100%"  width="200%"> </div>
+              </div>
+              <ol class="carousel-indicators">
+                  <li data-target="#slider" data-slide-to="0" class="active"></li>
+                  <li data-target="#slider" data-slide-to="1" ></li>
+                  <li data-target="#slider" data-slide-to="2" ></li>
+                  <li data-target="#slider" data-slide-to="3"></li>
+                  <li data-target="#slider" data-slide-to="4"></li>
+
+              </ol>
+          </div>
+    </div>
+
+</section>
+<!........................featured-catagories...................>
+<section class="featured-categories">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="pro image/mens wear/Mens-Tuta.jpg" >
+            </div>
+            <div class="col-md-4">
+                <img src="pro image/womens%20wear/red.jpeg"  >
+            </div>
+            <div class="col-md-4">
+                <img src="pro image/mens wear/t865392h.jpeg">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!................................. onsale product............>
+<section class="on-sale">
+    <div class="container">
+        <div class="title-box">
+            <h2> ON SALE </h2>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="product-top">
+                <img src="product_images/furniture-book-shelf-250x250.jpg">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="add to try on">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to wish list">
+                            <i class="fa fa-heart-o"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h3>book shelf</h3>
+                    <h5>500 birr</h5>
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-top">
+                    <img src="pro image/kitchen/kitcn1.jpg">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="add to try on">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to wish list">
+                            <i class="fa fa-heart-o"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h3>kitchen cabinet</h3>
+                    <h5>1500 birr</h5>
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-top">
+                    <img src="pro image/womens%20wear/ethiopian-traditional-wedding-clothes-men-women-5.jpg">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="add to try on">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to wish list">
+                            <i class="fa fa-heart-o"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h3>traditional wedding clothes</h3>
+                    <h5>10,000 birr</h5>
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-top">
+                    <img src="pro image/mens%20wear/istockphoto-617757034-612x612.jpg">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="add to try on">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to wish list">
+                            <i class="fa fa-heart-o"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h3>stylish men clothes</h3>
+                    <h5>2000 birr</h5>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!................................. new products........................!>
+<section class="new-product">
+    <section class="on-sale">
+        <div class="container">
+            <div class="title-box">
+                <h2> new arrivals </h2>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="pro image/womens wear/2016-New-Fashion-Clothes-Spring-Women-Dress-100-Cotton-Autumn-Winter-Dress-Female-Long-Sleeve-Dress.jpg">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="add to try on">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="add to wish list">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="add to cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <h3>girls stylish outfit</h3>
+                        <h5>500 birr</h5>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="pro image/womens wear/s-l1000.jpg">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="add to try on">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="add to wish list">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="add to cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <h3>grey dress</h3>
+                        <h5>350</h5>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="pro image/womens%20wear/2e4cdbe4a936e0701cd8a0956f395318.jpg">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="add to try on">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="add to wish list">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="add to cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <h3>ye habesha kemis</h3>
+                        <h5>1000birr</h5>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="pro image/womens%20wear/6ab656835381ad6e59f3129ee2b2957a.jpg">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="add to try on">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="add to wish list">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="add to cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <h3>traditional women clothes</h3>
+                        <h5>2000 birr</h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="product-top">
+                    <img src="pro image/elec/hqdefault.jpg">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="add to try on">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to wish list">
+                            <i class="fa fa-heart-o"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h3>head phons</h3>
+                    <h5>500 birr</h5>
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-top">
+                    <img src="pro image/elec/HP255Laptop.jpg">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="add to try on">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to wish list">
+                            <i class="fa fa-heart-o"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h3>hp laptop</h3>
+                    <h5>15000 birr</h5>
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-top">
+                    <img src="pro image/elec/Cell-Phone-Plans-topic-page-graphic.png">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="add to try on">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to wish list">
+                            <i class="fa fa-heart-o"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h3>smart phons</h3>
+                    <h5>2500-5000 birr</h5>
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-top">
+                    <img src="pro image/kitchen/Kitchenware-Set-3.jpg">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="add to try on">
+                            <i class="fa fa-eye"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to wish list">
+                            <i class="fa fa-heart-o"></i>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to cart">
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <h3>coffee maker </h3>
+                    <h5>2000 birr</h5>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+</section>
+<!.....................wesite footer.........................!>
+<section class="footer">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-3 col-xs-6">
+                <h1>USEFUL LINKS</h1>
+                <p>PRIVACY POLICY</p>
+                <p>TERMS OF USE</p>
+                <p>DELIVERY REQUEST</p>
+                <p>LOCATIONS</p>
+
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <h1>SELLER</h1>
+                <p>SELLER SIGN IN</p>
+                <p>SELLER LOG IN</p>
+
+
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <h1>COMPANY</h1>
+                <p>ABOUT US</p>
+                <p>CONTACT US</p>
+                <p>FOLLOW US</p>
+
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <h1>FOLLOW US ON</h1>
+                <p><i class="fa fa-facebook-official"></i> FACEBOOK</p>
+                <p><i class="fa fa-youtube-play"></i>YOU TUBE</p>
+                <p><i class="fa fa-twitter"></i>TWITTER</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script type="text/javascript">
+    $('.block2-btn-addcart').each(function(){
+        var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
+        $(this).on('click', function(){
+            swal(nameProduct, "is added to cart !", "success");
+        });
+    });
+
+    $('.block2-btn-addwishlist').each(function(){
+        var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
+        $(this).on('click', function(){
+            swal(nameProduct, "is added to wishlist !", "success");
+        });
+    });
+</script>
+
+
+
+
+
+
+<script>
+    function openmenu(){
+        document.getElementById("side-menu").style.display="block";
+        document.getElementById("menu-btn").style.display="none";
+        document.getElementById("close-btn").style.display="block";
+    }function closemenu(){
+        document.getElementById("side-menu").style.display="none";
+        document.getElementById("menu-btn").style.display="block";
+        document.getElementById("close-btn").style.display="none";
+    }
+</script>
+</body>
+
+</html>
